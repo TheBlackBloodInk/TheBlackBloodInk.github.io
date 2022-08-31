@@ -1,0 +1,46 @@
+:root {
+    --titl: #e50914;
+    --fondo: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: borderbox
+}
+
+body{
+    background: var(--fondo);
+}
+
+.contenedor {
+    width: 98;
+    margin: auto;
+}
+
+header .contenedor {
+    justify-content: space-between;
+    align-content: center;
+}
+header .logo {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--titl);
+    font-size: 100px;
+}
+
+header nav a {
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+header nav a:hover,
+header nav a.activo {
+    color: #fff;
+}
+
+section,h3{
+    background-color: #2e3a2e73;
+    text-align: center;
+}
