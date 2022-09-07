@@ -1,0 +1,74 @@
+:root {
+    --titl: #e50914;
+    --fondo: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--fondo);
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+header .contenedor {
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+}
+header .logo {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--titl);
+    font-size: 100px;
+}
+
+header nav a {
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+header nav a:hover,
+header nav a.activo {
+    color: #fff;
+}
+
+section,h3{
+    background-color: #2e3a2e73;
+    text-align: center;
+}
+
+.primera-plana {
+    font-size: 30px;
+    min-height: 20em;
+    color: #fff;
+    background: url(../image/NewCanvas1.png);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    margin-bottom: 2.12em;
+    align-items: end;
+}
+
+.primera-plana .contenedor{
+    margin: 0 auto;
+    margin-bottom: 3.25em;
+}
+
+.primera-plana .titulo{
+    font-size:688;
+    font-size: 3.12em;
+    margin-bottom 0.4em;
+}
+
+header .contenedor{
+    flex-direction: column;
+}
