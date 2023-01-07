@@ -50,13 +50,15 @@ section,h3{
     font-size: 30px;
     min-height: 20em;
     color: #fff;
-    background: url(../image/NewCanvas1.png);
+    background: url(../image/HFGposter.png);
     background-position: center center;
     background-size: cover;
     display: flex;
     margin-bottom: 2.12em;
     align-items: end;
 }
+
+
 
 .primera-plana .contenedor{
     margin: 0 auto;
