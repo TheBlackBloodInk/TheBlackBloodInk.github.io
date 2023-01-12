@@ -1,6 +1,6 @@
 :root {
     --titl: #e50914;
-    --fondo: #141414;
+    --fondo: #000000;
 }
 
 *{
@@ -41,8 +41,8 @@ header nav a.activo {
     color: #fff;
 }
 
-section,h3{
-    background-color: #2e3a2e73;
+section, h3 {
+    background-color: #ff000059;
     text-align: center;
 }
 
